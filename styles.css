@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2em;
+    background-color: #212020;
+}
+
+.hero__title {
+    color: #f4f4f4;
+    margin-bottom: 10px;
+}
+
+.hero__canvas {
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: #F2F2F2;
+    margin: 0 20px;
+    width: 800px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+.hero__fly {
+    font-size: 1.8rem;
+    color: wheat;
+}
